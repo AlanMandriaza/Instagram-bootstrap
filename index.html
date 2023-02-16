@@ -22,20 +22,21 @@
 <body>
 
     <nav class="navbar bg-light">
-        <div class="container-fluid">
-            <ul class="nav nav-tabs">
-                <li class="nav-item col-12">
+        <div class="container">
+            <ul class="row nav nav-tabs bg-light col-12">
+                <li class="nav-item col-3">
                     <a class="navbar-brand" href="#"><i class="bi bi-instagram"></i>Instagram</a>
                 </li>
-                <li class="boton col-9">
+                <li class="boton col-8">
 
-                    <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                    <button type="button" class="btn create btn-success" data-bs-toggle="modal"
                         data-bs-target="#staticBackdrop">
                         Create a new post
                     </button>
                 </li>
                 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" tabindex="-1"
+                    aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -76,8 +77,7 @@
                 </div>
 
                 <li class="nav-item dropdown col-1">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                    <a class="nav-link bg-secondary " href="#" role="button" data-bs-toggle="dropdown">
                         <i class="fa fa-gear"></i>
 
                         <ul class="dropdown-menu">
@@ -95,8 +95,27 @@
 
 
 
+            <div class="row nav col-12">
+                <li class="col-6 nav-item">
+                    <a class="nav-link rgt active" href="index2.html">
+                        <span class="badge-light">
+
+                            <i class="fa fa-stop"></i>
+                        </span>
+                    </a>
+
+                </li>
 
 
+                <li class="col-6 nav-item">
+                    <a class="nav-link active" href="index.html">
+                        <span class="badge-light">
+                            <i class="fa fa-table-cells"></i>
+                        </span>
+
+                    </a>
+                </li>
+            </div>
             <div class="row">
                 <div class="col-4">
                     <img class="card-img"
