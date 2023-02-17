@@ -1,6 +1,3 @@
- * {
-  border: 1px solid red;
-}
 
 
 /*
@@ -8,10 +5,7 @@
 .btn-success{
   float: right;
 }
-.rgt{
-  float: right;
-}
- 
+
 .col-4{
   
   padding-left: 4px;
@@ -33,3 +27,23 @@
 .card-img-top{
   padding-bottom: 0px;
 }
+.rgt{
+  float: right;
+}
+ .asd{    
+  width: 49px
+  }
+
+ .nav.row.col-12{
+  margin-left: 0px;
+
+ }
+ .bi{
+  padding-top: 0px;
+ }
+ .navbar-brand{
+  padding-top: 0px;
+ }
+ .btn.btn-secondary{
+  float: right;
+ }
