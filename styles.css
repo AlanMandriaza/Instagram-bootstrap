@@ -1,28 +1,35 @@
-/* * {
+ * {
   border: 1px solid red;
 }
-*/
+
+
+/*
+ Este es un comentario en HTML 
 .btn-success{
   float: right;
 }
 .rgt{
   float: right;
 }
-.col-12, row.nav.col-12{
-  width:102%
-}
+ 
 .col-4{
   
   padding-left: 4px;
   padding-right: 4px;
 }
 .nav-link.bg-secondary, .nav-item.dropdown{
-  padding-right: 42px;
+
   color: white;
 }
 .card-img{
   padding-bottom: 9px;
 }
-.nav-link{
-  margin-right: -13px;
+/*/
+
+
+.btn-success{
+  float: right;
+}
+.card-img-top{
+  padding-bottom: 0px;
 }
